@@ -67,10 +67,10 @@ section.section1 {
 
 /* Heim Logo */
 section.section1 .centered-element svg {
-    width: 100%; /* Adjust the percentage as needed */
+    margin-top: 20px;
+    width: 50%; /* Adjust the percentage as needed */
     max-width: 400px; /* Optional: Set a maximum width for responsiveness */
     fill: #ffffff; /* Set the fill color to white or your preferred color */
-    background-color: transparent; /* Set the background color to transparent */
 }
 
 }
