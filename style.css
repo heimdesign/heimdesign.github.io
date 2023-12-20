@@ -46,44 +46,43 @@
     font-style: italic;
 }
 
-body {
-   margin: 0;
-   padding: 0;
-   font-family: 'AeonikPro-Regular', sans-serif;
-   color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'AeonikPro-Regular', sans-serif;
 }
 
-.landing-section {
-   height: 100vh; /* Set the height of the landing section to 100% of the viewport height */
-   background-image: url('Images/landing-background.jpg'); /* Set the background image for the landing section */
-   background-size: cover; /* Cover the entire container with the background image */
-   background-position: center; /* Center the background image */
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
+/* Section 1 - Full screen image background */
+section.section1 {
+    height: 100vh;
+    background: url('images/03.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
 }
 
-.landing-section h1 {
-   font-size: 3em;
-   margin: 0; /* Remove default margin */
+/* Centered element in Section 1 */
+section.section1 .centered-element {
+    margin-top: 20px;
 }
 
-.scrollable-section {
-   height: 100vh; /* Set the height of the scrollable section to 100% of the viewport height */
-   background-color: #333; /* Set the background color for the scrollable section */
-   display: flex;
-   flex-direction: column; /* Stack items vertically */
-   align-items: center;
-   justify-content: center;
-   text-align: center;
+/* Section 2 - Full screen solid background with left-aligned paragraph */
+section.section2 {
+    height: 100vh;
+    background-color: #3498db; /* Choose your background color */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #fff;
 }
 
-.scrollable-section h2 {
-   font-size: 2em;
-   margin: 0; /* Remove default margin */
-}
-
-.scrollable-section p {
-   font-size: 1.2em;
+/* Style for the paragraph in Section 2 */
+section.section2 p {
+    max-width: 600px; /* Adjust as needed */
+    font-size: 18px;
+    line-height: 1.6;
 }
