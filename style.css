@@ -79,7 +79,8 @@ section.section2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 20px;
+    padding-left: 48px;
+    padding-right: 48px;
     color: #fff;
 }
 
@@ -104,5 +105,8 @@ section.section2 .instagram-text {
     /* Responsive Font Size for Mobile */
     @media only screen and (max-width: 768px) {
         font-size: 32px; /* Adjust the font size for mobile devices */
+        margin: 32px 0; /* Add a 48px margin at the bottom */
+        padding-left: 32px;        
+        padding-right: 32px;
     }
 }
