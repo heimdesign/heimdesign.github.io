@@ -86,14 +86,13 @@ section.section2 {
 
 /* Style for the paragraph in Section 2 */
 section.section2 p {
-    max-width: 600px; /* Adjust as needed */
+    max-width: 100hw; /* Adjust as needed */
     font-size: 48px;
     line-height: 1.6;
-    margin: 48px 0; /* Add a 48px margin at the bottom */
+    margin: 48px; /* Add a 20px margin around the paragraph */
 }
-
 /* Style for the Instagram text */
 section.section2 .instagram-text {
     font-size: 48px; /* Adjust the font size as needed */
-    margin-top: 48px; /* Add a 48px margin at the top to separate it from the paragraph */
+    margin-bottom: 48px; /* Margin at the bottom */
 }
