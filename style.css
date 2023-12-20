@@ -75,7 +75,7 @@ body {
    height: auto; /* Maintain aspect ratio */
    width: 300px; /* Adjust this value to achieve the desired size */
    filter: invert(100%); /* Invert the logo color */
-   margin-bottom: 20px; /* Adjust margin as needed */
+   margin-bottom: 50px; /* Adjust margin as needed */
 }
 
 .coming-soon {
