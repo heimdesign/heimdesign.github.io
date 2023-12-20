@@ -44,16 +44,23 @@
          url('https://heimdesign.github.io/Fonts/AeonikPro-RegularItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-}
 body {
-    font-family: 'AeonikPro-Regular', sans-serif;
+   font-family: 'AeonikPro-Regular', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; /* 100% of the viewport height */
+   margin: 0; /* Remove default margin */
+}
+
+.center-container {
+   text-align: center; /* Center align the text within the container */
 }
 
 h1 {
-    font-family: 'AeonikPro-Regular', sans-serif;
-    text-align: center; /* Center align the text in the h1 element */
+   font-family: 'AeonikPro-Regular', sans-serif;
 }
 
 p {
-    font-family: 'AeonikPro-Regular', sans-serif;
+   font-family: 'AeonikPro-Regular', sans-serif;
 }
