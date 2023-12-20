@@ -73,8 +73,6 @@ section.section1 .centered-element svg {
     fill: #ffffff; /* Set the fill color to white or your preferred color */
 }
 
-}
-
 /* Section 2 - Full screen solid background with left-aligned paragraph */
 section.section2 {
     height: 100vh;
