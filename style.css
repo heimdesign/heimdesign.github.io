@@ -67,7 +67,9 @@ section.section1 {
 
 /* Centered element in Section 1 */
 section.section1 .centered-element {
-    margin-top: 20px;
+   margin-top: 20px;
+    width: 50%; /* Adjust the percentage as needed */
+    max-width: 400px; /* Optional: Set a maximum width for responsiveness */
 }
 
 /* Section 2 - Full screen solid background with left-aligned paragraph */
