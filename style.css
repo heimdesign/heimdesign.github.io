@@ -65,6 +65,11 @@ body {
    text-align: center; /* Center align the text within the container */
 }
 
+.logo-container {
+   display: flex;
+   justify-content: center;
+}
+
 .logo {
    max-width: 100%; /* Ensure the logo doesn't exceed the container width */
    height: auto; /* Maintain aspect ratio */
@@ -73,7 +78,10 @@ body {
    margin-bottom: 20px; /* Adjust margin as needed */
 }
 
-.coming-soon {
+.coming-soon-container {
    margin-bottom: 20px; /* Fixed margin from the bottom edge */
+}
+
+.coming-soon {
    font-size: 30px; /* Adjust the font size as needed */
 }
