@@ -47,25 +47,32 @@
 }
 
 body {
-    font-family: 'AeonikPro-Regular', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+   font-family: 'AeonikPro-Regular', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; /* 100% of the viewport height */
+   margin: 0; /* Remove default margin */
+   background-image: url('Images/03.jpeg');
+   background-size: cover; /* Cover the entire container */
+   background-position: center; /* Center the background image */
+   background-repeat: no-repeat; /* Do not repeat the background image */
+   color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
 }
 
 .center-container {
-    text-align: center;
-    flex-grow: 1; /* Take remaining vertical space between logo and bottom */
+   text-align: center; /* Center align the text within the container */
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center items horizontally */
+   justify-content: center; /* Center items vertically */
 }
 
 img {
-    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+   max-width: 100%; /* Ensure the image doesn't exceed the container width */
+   height: auto; /* Maintain aspect ratio */
 }
 
-p {
-    margin-top: 20px; /* Adjust the space between the logo and the text */
+h1 {
+   font-family: 'AeonikPro-Regular', sans-serif;
 }
