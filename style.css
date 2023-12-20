@@ -85,7 +85,7 @@ section.section2 {
 
 /* Style for the paragraph in Section 2 */
 section.section2 p {
-    max-width: 600px; /* Adjust as needed */
+    max-width: 100hw; /* Adjust as needed */
     font-size: 48px;
     line-height: 1.6;
     margin: 48px 0; /* Add a 48px margin at the bottom */
