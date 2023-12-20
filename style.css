@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'AeonikPro-Bold';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-Bold.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeonikPro-BoldItalic';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-BoldItalic.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AeonikPro-Light';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-Light.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeonikPro-LightItalic';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-LightItalic.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-LightItalic.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AeonikPro-Regular';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-Regular.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AeonikPro-RegularItalic';
+    src: url('https://heimdesign.github.io/Fonts/AeonikPro-RegularItalic.woff2') format('woff2'),
+         url('https://heimdesign.github.io/Fonts/AeonikPro-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+body {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
+
+h1 {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
+
+p {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
