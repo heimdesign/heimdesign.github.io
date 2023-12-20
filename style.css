@@ -45,3 +45,14 @@
     font-weight: normal;
     font-style: italic;
 }
+body {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
+
+h1 {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
+
+p {
+    font-family: 'AeonikPro-Regular', sans-serif;
+}
