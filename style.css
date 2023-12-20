@@ -68,9 +68,9 @@ section.section1 {
 /* Heim Logo */
 section.section1 .centered-element svg {
     margin-top: 20px;
-    width: 50%; /* Adjust the percentage as needed */
+    width: 100%; /* Adjust the percentage as needed */
     max-width: 400px; /* Optional: Set a maximum width for responsiveness */
-    fill: #ffffff; /* Set the fill color to white or your preferred color */
+    filter: invert(1); /* Inverts the colors */
 }
 
 /* Section 2 - Full screen solid background with left-aligned paragraph */
