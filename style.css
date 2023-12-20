@@ -63,6 +63,11 @@ body {
 
 .center-container {
    text-align: center; /* Center align the text within the container */
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center items horizontally */
+   justify-content: center; /* Center items vertically */
+   height: 100%; /* Use 100% height of the parent container */
 }
 
 .logo {
@@ -73,6 +78,6 @@ body {
 }
 
 .coming-soon {
-   margin-top: 100px; /* Adjust the margin to control the distance from the logo */
+   margin-top: 20px; /* Adjust the margin to control the distance from the logo */
    font-size: 30px; /* Adjust the font size as needed */
 }
