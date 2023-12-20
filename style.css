@@ -88,4 +88,5 @@ section.section2 p {
     max-width: 100hw; /* Adjust as needed */
     font-size: 36px;
     line-height: 1.6;
+    margin: 36px; /* Add a 20px margin around the paragraph */
 }
