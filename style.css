@@ -32,8 +32,8 @@
 
 @font-face {
     font-family: 'AeonikPro-Regular';
-    src: url('https://heimdesign.github.io/Fonts/AeonikPro-Regular.woff2') format('woff2'),
-         url('https://heimdesign.github.io/Fonts/AeonikPro-Regular.woff') format('woff');
+    src: url('Fonts/AeonikPro-Regular.woff2') format('woff2'),
+         url('Fonts/AeonikPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
