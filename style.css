@@ -49,29 +49,38 @@
 body {
    font-family: 'AeonikPro-Regular', sans-serif;
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center items horizontally */
+   justify-content: center; /* Center items vertically */
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
    background-image: url('Images/03.jpg');
-   background-size: cover; /* Cover the entire container */
+   background-size: auto 100%; /* Fill the height while maintaining aspect ratio */
    background-position: center; /* Center the background image */
    background-repeat: no-repeat; /* Do not repeat the background image */
    color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
 }
 
-.center-container {
-   text-align: center; /* Center align the text within the container */
-   display: flex;
-   flex-direction: column; /* Stack items vertically */
-   align-items: center; /* Center items horizontally */
-   justify-content: center; /* Center items vertically */
-}
-
 .logo {
    max-width: 100%; /* Ensure the logo doesn't exceed the container width */
    height: auto; /* Maintain aspect ratio */
-   width: 225%; /* Increase the size by 1.5x */
+   width: 300px; /* Adjust this value to achieve the desired size */
    filter: invert(100%); /* Invert the logo color */
 }
 
+.bottom-section {
+   width: 100%;
+   background-color: #333; /* Solid background color */
+   text-align: center; /* Center align the text within the container */
+   padding: 20px; /* Add padding to the bottom section */
+}
+
+.solid-background {
+   max-width: 800px; /* Set the maximum width for the content */
+   margin: 0 auto; /* Center the container within the section */
+}
+
+.solid-background p {
+   margin: 0; /* Remove default paragraph margin */
+   color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
+}
