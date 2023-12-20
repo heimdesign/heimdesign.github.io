@@ -1,47 +1,47 @@
 @font-face {
     font-family: 'AeonikPro-Bold';
-    src: url('Fonts/AeonikPro-Bold.woff2') format('woff2'),
-         url('Fonts/AeonikPro-Bold.woff') format('woff');
+    src: url('fonts/AeonikPro-Bold.woff2') format('woff2'),
+         url('fonts/AeonikPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AeonikPro-BoldItalic';
-    src: url('Fonts/AeonikPro-BoldItalic.woff2') format('woff2'),
-         url('Fonts/AeonikPro-BoldItalic.woff') format('woff');
+    src: url('fonts/AeonikPro-BoldItalic.woff2') format('woff2'),
+         url('fonts/AeonikPro-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'AeonikPro-Light';
-    src: url('Fonts/AeonikPro-Light.woff2') format('woff2'),
-         url('Fonts/AeonikPro-Light.woff') format('woff');
+    src: url('fonts/AeonikPro-Light.woff2') format('woff2'),
+         url('fonts/AeonikPro-Light.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AeonikPro-LightItalic';
-    src: url('Fonts/AeonikPro-LightItalic.woff2') format('woff2'),
-         url('Fonts/AeonikPro-LightItalic.woff') format('woff');
+    src: url('fonts/AeonikPro-LightItalic.woff2') format('woff2'),
+         url('fonts/AeonikPro-LightItalic.woff') format('woff');
     font-weight: lighter;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'AeonikPro-Regular';
-    src: url('Fonts/AeonikPro-Regular.woff2') format('woff2'),
-         url('Fonts/AeonikPro-Regular.woff') format('woff');
+    src: url('fonts/AeonikPro-Regular.woff2') format('woff2'),
+         url('fonts/AeonikPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AeonikPro-RegularItalic';
-    src: url('Fonts/AeonikPro-RegularItalic.woff2') format('woff2'),
-         url('Fonts/AeonikPro-RegularItalic.woff') format('woff');
+    src: url('fonts/AeonikPro-RegularItalic.woff2') format('woff2'),
+         url('fonts/AeonikPro-RegularItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
