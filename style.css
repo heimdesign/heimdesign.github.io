@@ -71,6 +71,7 @@ body {
 .logo {
    max-width: 100%; /* Ensure the logo doesn't exceed the container width */
    height: auto; /* Maintain aspect ratio */
-   width: 150%; /* Increase the size by 1.5x */
-   /* fill: white; Remove this line */
+   width: 225%; /* Increase the size by 1.5x */
+   filter: invert(100%); /* Invert the logo color */
 }
+
