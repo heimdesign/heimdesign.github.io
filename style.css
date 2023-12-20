@@ -49,8 +49,9 @@
 body {
    font-family: 'AeonikPro-Regular', sans-serif;
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center items horizontally */
+   justify-content: space-between; /* Distribute items evenly along the cross-axis */
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
    background-image: url('Images/03.jpg');
@@ -62,10 +63,6 @@ body {
 
 .center-container {
    text-align: center; /* Center align the text within the container */
-   display: flex;
-   flex-direction: column; /* Stack items vertically */
-   align-items: center; /* Center items horizontally */
-   justify-content: center; /* Center items vertically */
 }
 
 .logo {
@@ -73,4 +70,9 @@ body {
    height: auto; /* Maintain aspect ratio */
    width: 300px; /* Adjust this value to achieve the desired size */
    filter: invert(100%); /* Invert the logo color */
+}
+
+.coming-soon {
+   margin-top: 20px; /* Adjust the margin to control the distance from the logo */
+   font-size: 18px; /* Adjust the font size as needed */
 }
