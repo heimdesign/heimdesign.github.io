@@ -54,7 +54,7 @@ body {
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
    background-image: url('Images/03.jpg');
-   background-size: contain; /* Fit the entire image within the container */
+   background-size: auto 100%; /* Fill the height while maintaining aspect ratio */
    background-position: center; /* Center the background image */
    background-repeat: no-repeat; /* Do not repeat the background image */
    color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
