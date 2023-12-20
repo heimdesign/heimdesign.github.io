@@ -68,7 +68,7 @@ section.section1 {
 /* Heim Logo */
 section.section1 .centered-element svg {
     margin-top: 20px;
-    width: 100%; /* Adjust the percentage as needed */
+    width: 300%; /* Adjust the percentage as needed */
     max-width: 400px; /* Optional: Set a maximum width for responsiveness */
 }
 
