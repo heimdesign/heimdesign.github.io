@@ -51,6 +51,7 @@ body {
    justify-content: center;
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
+   background-color: #f0f0f0; /* Optional: Set a background color */
 }
 
 .center-container {
