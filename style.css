@@ -63,13 +63,6 @@ body {
 
 .center-container {
    text-align: center; /* Center align the text within the container */
-   flex: 1; /* Allow the center-container to take up the remaining space vertically */
-}
-
-.logo-container {
-   display: flex;
-   align-items: center; /* Center items vertically */
-   justify-content: center; /* Center items horizontally */
 }
 
 .logo {
