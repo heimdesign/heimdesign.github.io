@@ -79,7 +79,7 @@ section.section2 {
     background-color: #48633b; /* Choose your background color */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Align items with space between them */
+    justify-content: flex-start;
     align-items: flex-start;
     padding-left: 20px;
     color: #fff;
