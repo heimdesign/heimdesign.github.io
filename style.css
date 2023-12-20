@@ -51,6 +51,7 @@ body {
 
 h1 {
     font-family: 'AeonikPro-Regular', sans-serif;
+    text-align: center; /* Center align the text in the h1 element */
 }
 
 p {
