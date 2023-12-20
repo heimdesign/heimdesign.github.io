@@ -53,7 +53,11 @@ body {
    justify-content: center;
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
-   background-color: #f0f0f0; /* Optional: Set a background color */
+   background-image: url('Images/Strait-4.jpeg');
+   background-size: cover; /* Cover the entire container */
+   background-position: center; /* Center the background image */
+   background-repeat: no-repeat; /* Do not repeat the background image */
+   color: #ffffff; /* Set text color to white or a color that contrasts well with the background */
 }
 
 .center-container {
