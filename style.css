@@ -51,7 +51,7 @@ body {
    display: flex;
    flex-direction: column; /* Stack items vertically */
    align-items: center; /* Center items horizontally */
-   justify-content: space-between; /* Distribute items evenly along the cross-axis */
+   justify-content: center; /* Center items vertically */
    height: 100vh; /* 100% of the viewport height */
    margin: 0; /* Remove default margin */
    background-image: url('Images/03.jpg');
@@ -70,7 +70,6 @@ body {
    display: flex;
    align-items: center; /* Center items vertically */
    justify-content: center; /* Center items horizontally */
-   height: 50%; /* 50% of the center-container */
 }
 
 .logo {
@@ -78,12 +77,4 @@ body {
    height: auto; /* Maintain aspect ratio */
    width: 300px; /* Adjust this value to achieve the desired size */
    filter: invert(100%); /* Invert the logo color */
-}
-
-.coming-soon-container {
-   margin-bottom: 20px; /* Fixed margin from the bottom edge */
-}
-
-.coming-soon {
-   font-size: 30px; /* Adjust the font size as needed */
 }
