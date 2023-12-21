@@ -102,12 +102,13 @@ section.section2 .links {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: left;
+    margin: 48px 0; /* Add a 48px margin at the bottom */
 }
 
 section.section2 .Instagram,
 section.section2 .E-Mail {
     font-size: 32px; /* Adjust the font size for better mobile responsiveness */
-    margin: 16px 16px; /* Adjust the margin for consistent spacing */
+    margin: 16px 0; /* Adjust the margin for consistent spacing */
 }
 
 /* Add styles for links */
