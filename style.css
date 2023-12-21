@@ -100,14 +100,14 @@ section.section2 p {
 /* Style for the Instagram and Email text */
 section.section2 .links {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
 }
 
 section.section2 .instagram-text,
 section.section2 .link-text {
     font-size: 48px;
-    margin: 0 48px; /* Add spacing between the text elements */
+    margin: 48px; /* Add spacing between the text elements */
 }
 
     /* Responsive Font Size for Mobile */
