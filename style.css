@@ -110,15 +110,10 @@ section.section2 .link-text {
     margin: 48px; /* Add spacing between the text elements */
 }
 
-    /* Responsive Font Size for Mobile */
-    @media only screen and (max-width: 768px) {
-        font-size: 32px; /* Adjust the font size for mobile devices */
-    }
-
 /* Add styles for links */
 section.section2 .instagram-text a,
 section.section2 .link-text a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -126,3 +121,9 @@ section.section2 .instagram-text a:hover,
 section.section2 .link-text a:hover {
     text-decoration: underline;
 }
+
+    /* Responsive Font Size for Mobile */
+    @media only screen and (max-width: 768px) {
+        font-size: 32px; /* Adjust the font size for mobile devices */
+    }
+
