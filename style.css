@@ -86,7 +86,7 @@ section.section2 {
 
 /* Style for the paragraph in Section 2 */
 section.section2 p {
-    max-width: 100hw; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
     font-size: 48px;
     line-height: 1.6;
     margin: 48px 0; /* Add a 48px margin at the bottom */
@@ -104,20 +104,20 @@ section.section2 .links {
     align-items: center;
 }
 
-section.section2 .instagram-text,
-section.section2 .link-text {
+section.section2 .Instagram,
+section.section2 .E-Mail {
     font-size: 32px; /* Adjust the font size for better mobile responsiveness */
     margin: 20px 0; /* Add spacing between the text elements */
 }
 
 /* Add styles for links */
-section.section2 .instagram-text a,
-section.section2 .link-text a {
+section.section2 .Instagram a,
+section.section2 .E-Mail a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-section.section2 .instagram-text a:hover,
-section.section2 .link-text a:hover {
+section.section2 .Instagram a:hover,
+section.section2 .E-Mail a:hover {
     text-decoration: underline;
 }
