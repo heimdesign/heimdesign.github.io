@@ -101,7 +101,7 @@ section.section2 p {
 section.section2 .links {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
-    align-items: center;
+    align-items: left;
 }
 
 section.section2 .Instagram,
