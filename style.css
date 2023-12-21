@@ -106,8 +106,8 @@ section.section2 .links {
 
 section.section2 .instagram-text,
 section.section2 .link-text {
-    font-size: 48px;
-    margin: 48px; /* Add spacing between the text elements */
+    font-size: 32px; /* Adjust the font size for better mobile responsiveness */
+    margin: 20px 0; /* Add spacing between the text elements */
 }
 
 /* Add styles for links */
@@ -121,9 +121,3 @@ section.section2 .instagram-text a:hover,
 section.section2 .link-text a:hover {
     text-decoration: underline;
 }
-
-    /* Responsive Font Size for Mobile */
-    @media only screen and (max-width: 768px) {
-        font-size: 32px; /* Adjust the font size for mobile devices */
-    }
-
